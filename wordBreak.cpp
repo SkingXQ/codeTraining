@@ -42,7 +42,12 @@ class Solution {
         }
         return prev;
     }
-
+//this method key point is the m.
+// used to abvoid time limit
+// for example, abc, efg
+//              ab, c,efg,
+// so that abvoid the duplicate calculating.
+// this question belong to DP for it actually restore the optimus result in the m .
 public:
     vector<string> wordBreak(string s, unordered_set<string>& dict) {
         if(m.count(s)) return m[s]; //take from memory
@@ -54,7 +59,7 @@ public:
             string word=s.substr(i);
             if(dict.count(word)){
                 string rem=s.substr(0,i);
-                vector<string> prev=combine(word,wordBreak(rem,dict));
+                vector<string> prev=combine(word,wordBreak(rem,dict));//combine the word with remind s divide;
                 result.insert(result.end(),prev.begin(), prev.end());
             }
         }
