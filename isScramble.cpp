@@ -1,6 +1,6 @@
 # coding=utf-8
 
-/*
+/*https://leetcode.com/problems/scramble-string/
     understanding the key of scramble:
         the word belong to a binary tree like abcd is not bdac
     key points:
