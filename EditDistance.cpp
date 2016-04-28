@@ -1,5 +1,5 @@
 # coding=utf8
-/*
+/*https://leetcode.com/problems/edit-distance/
     动态规划， dp[k][j]意味着s1的到K位置的子序列与s2到k子序列最少的修改数量
     关键点是d[k][j]递归
     dp构架时候加入一行一列，意味着当一个字符串为零时候最少修改数量

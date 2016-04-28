@@ -1,5 +1,5 @@
 # coding=utf-8
-/*
+/*link:  https://leetcode.com/problems/burst-balloons/out<<"herdde"<<s<<"t"<<endl;
     define array,  index is the scale of nums, left to right ,
     scan the scale, divide two parts left to i , i to right and left * i * right(left <= i <= right)
     作为动态规划，我们可以这么说从最少的3个元素开始一组，然后到最长元素。

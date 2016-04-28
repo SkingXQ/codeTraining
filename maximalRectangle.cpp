@@ -1,5 +1,5 @@
 # coding=utf-8
-/*
+/*link:https://leetcode.com/problems/maximal-rectangle/
   this question is hard to understand for me .
   It request the rectangle that just contains 1 no include the 0.
   So for the input ["0001000","0011100","0111110"],

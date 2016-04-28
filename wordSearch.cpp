@@ -1,4 +1,5 @@
 /*
+https://leetcode.com/problems/word-search/
 	I make a lot of problem
 	1. First , I use back tracing but forget to mark the route is searching and forget to restore it .
 	2. run time error sometime means I make a mistake in range for example x belong to (0, num.size())
