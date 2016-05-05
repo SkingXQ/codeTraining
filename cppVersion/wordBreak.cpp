@@ -67,3 +67,28 @@ public:
         return result;
     }
 };
+
+
+class Solution {
+public:
+    bool wordBreak(string s, unordered_set<string>& wordDict) {
+        if(s.size() == 0) return false;
+        vector<bool> sub(s.size()+1, false);
+        sub[0] = true;
+        for(int i=0; i<s.size(); i++) {
+            if(!sub[i]) continue;
+            
+            for(auto word: wordDict) {
+                int end = i + word.size();
+                if(end > s.size() || sub[end]) continue;
+                
+                if(s.substr(i, word.size()) == word) {
+                    sub[end] = true;
+                    cout<<end<<endl;
+                    cout<<word<<endl;
+                }
+            }
+        }
+        return sub[s.size()];
+    }
+};
