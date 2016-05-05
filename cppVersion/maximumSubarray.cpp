@@ -1,6 +1,6 @@
 /*
     link: https://leetcode.com/problems/maximum-subarray/
-    other solution: https://leetcode.com/discuss/71696/my-c-o-n-solution-lol
+    other solution : https://leetcode.com/discuss/91548/c-code-o-1-space-and-o-n-time
     tip:
           i should promote this method.
 */
