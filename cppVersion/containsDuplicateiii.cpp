@@ -5,6 +5,7 @@
        translate the distance between positions to distance bewtween number contained.
        reduce the time complexity.
        by the way the sort function useage
+       use long type is for in case the overflow
 */
 class Solution {
 public:
