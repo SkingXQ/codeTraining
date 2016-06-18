@@ -1,7 +1,14 @@
 /*
     Link:https://leetcode.com/problems/minimum-path-sum/
     Discuss : https://leetcode.com/problems/minimum-path-sum/
-    Tips: method 1 is my thoughts and too many redundant path
+    Tips: Every move just go down and go right.
+          situation:
+                     8,  7, 20, 12
+                     1,  1, 2,  12
+                     From 7, 7->8->1->1-->2->12 smaller than 7->20->12
+                     But 7->1->2->12 is more smaller.
+                     It means you just can move down or right . the path sum is must smaller than with some movements is turn left or up.    
+          method 1 is my thoughts and too many redundant path
           method 2 is from the discuss. It optimizes the path.
           For example, 7, 8, 9
                        4, 5, 6
