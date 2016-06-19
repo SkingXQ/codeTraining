@@ -7,6 +7,8 @@
           in the end It sorted.
 	  Please remember some key points: over boundary and how to give the number of i.(i speend here 2 and half hours)
           I think I shoule have better ways to solve it.
+          Please note that checking 2 mustb be ahead of checking 0. 
+          Cause when you meet a 0, the number before  0, is 1, but the number after 2 is  1 or 0,
 */
 #include<vector>
 #include<iostream>
