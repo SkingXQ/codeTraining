@@ -1,6 +1,7 @@
 
 /*
     Link: https://leetcode.com/problems/sort-colors/
+    Discuss: https://leetcode.com/discuss/104779/c-easy-o-n-solution  // same thoughts but different way to move, It use the backward to avoid swap between  0 and 2
     Tips: it similar with first missing number
           0 move the end of substring of 0's
           2 move to the begin og substring of 2's
