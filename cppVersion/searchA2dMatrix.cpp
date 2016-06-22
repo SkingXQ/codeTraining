@@ -1,3 +1,8 @@
+/*
+    Link:https://leetcode.com/problems/search-a-2d-matrix/
+    Tips: binarySearch
+*/
+
 #include<iostream>
 #include<vector>
 
