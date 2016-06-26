@@ -16,11 +16,6 @@ public:
                 cout<<*(hashWords.find(s.substr(i, sw)))<<endl;
                 unordered_multiset<string> t(hashWords.begin(), hashWords.end());
                 string st = s.substr(i, sw*words.size());
-                /*  here will make a segment fault, I don't know why
-                unordered_multiset<string> t = hashWords;
-                cout<<*(hashWords.find(s.substr(i, sw)))<<endl;
-                auto it = hashWords.find(s.substr(i, sw));
-                t.erase(it);*/
                 int r = searchWords(st, t, sw);
                 if(r) {
                     res.push_back(i);
