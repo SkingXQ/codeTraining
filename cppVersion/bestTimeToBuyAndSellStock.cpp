@@ -6,6 +6,8 @@
            "2, 13, 15, 1" , the accumulation  will be 11, 13, -1, it means the lowest number will change.
           the maxSoFar will store the maximum difference so far.
           The algorithm just used for the situation that we need to get the upstream trend not downstream.
+          Although the algorithm is more beautiful. But My thoughts is right, try to get the lowest number so far.
+          keep the biggest differece(up stream) so far. and keep going on.
 */
 class Solution {
 public:
