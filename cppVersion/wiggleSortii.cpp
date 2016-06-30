@@ -5,6 +5,7 @@
            and another is the half bigger. So we don't need to sort the whole arrays. We just split the 
            arrays. With likely partion sort, We can do it in average time is O(n)(worst situation no under considered).
            nth_element completes the requirement.
+           (reference: http://www.tuicool.com/articles/2uM3mqR)
 */
 
 class Solution {
