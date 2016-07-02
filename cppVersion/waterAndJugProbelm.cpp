@@ -1,6 +1,13 @@
 /*
     Link: https://leetcode.com/problems/water-and-jug-problem/
-    Another solution: https://leetcode.com/discuss/110235/c-solution-using-euclidean-algorithm
+    Another solution: https://leetcode.com/discuss/110525/a-little-explanation-on-gcd-method
+    Tips: About the greatest common divisor , I should remember it.
+	  int gcd(int a, int b) {
+	      return b == 0? a: gcd(b, a%b);
+	  }
+	  The explanation about why using gcd here is the same thoughts about it.
+          the z must be the min * i + carry, the carry is the digit whose gcd is the same as x, y.
+          it means anyone which z is smaller than x+y share the gcd with x ,y
 */
 
 #include<iostream>
