@@ -1,6 +1,7 @@
 /*
     Link:  https://leetcode.com/problems/kth-smallest-element-in-a-bst/
     Solution: https://discuss.leetcode.com/topic/17573/4-lines-in-c
+              https://discuss.leetcode.com/topic/17810/3-ways-implemented-in-java-binary-search-in-order-iterative-recursive
     Tips: It is beautiful solution. Actually using the inorder search. 
           We check the left tree to find whether the number of the nodes is containning the kth
           smallest one. And it will count the number of nodes.if not in left, and check root node and then
