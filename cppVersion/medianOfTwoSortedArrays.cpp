@@ -14,10 +14,12 @@ using namespace std;
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        
-        if(nums1.size() && !nums2.size()) {
-            int s = nums1.size();
-            return s%2?  double(nums1[s/2]): (double(nums1[s/2]) + double(nums1[s/2-1])) / 2;
+
+        if(nums1.size() > nums2.size()) 
+            return findMedianSortedArrays(nums2, nums1)       
+        if(nums2.size() && !nums1.size()) {
+            int s = nums2.size();
+            return s%2?  double(nums2[s/2]): (double(nums2[s/2]) + double(nums2[s/2-1])) / 2;
         } 
         int b1 = 0;
         int b2 = 0;
