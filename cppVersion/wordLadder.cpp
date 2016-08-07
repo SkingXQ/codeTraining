@@ -1,6 +1,8 @@
 /*
     Link: https://leetcode.com/problems/word-ladder/
     Solution: https://discuss.leetcode.com/topic/16983/easy-76ms-c-solution-using-bfs
+    Tips:  Except time complexity, we should think it over. 1 -> 2->3->4, 1->3->4 is two ways to touch the end
+           BFS is working for we chased the shortest ladder so that the passing by the 2
 */
 #include<string>
 #include<unordered_set>
